@@ -89,9 +89,9 @@ As imagens dos planetas e as informações das missões são fornecidas no proje
 
   - Projeto individual.
 
-  - Serão X dias de projeto.
+  - Serão 1 dias de projeto.
   
-  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
+  - Data de entrega para avaliação final do projeto: `05/11/2021 - 14:00h`.
 ---
 
 # Observações técnicas
