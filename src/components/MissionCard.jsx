@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class PlanetCard extends React.Component {
+class MissionCard extends React.Component {
   render() {
     const { name, year, country, destination } = this.props;
     return (
@@ -9,23 +9,23 @@ class PlanetCard extends React.Component {
         <h2 data-testid="mission-name">
           {name}
         </h2>
-        <h2 data-testid="mission-year">
+        <h3 data-testid="mission-year">
           {year}
-        </h2>
-        <h2 data-testid="mission-country">
+        </h3>
+        <h3 data-testid="mission-country">
           {country}
-        </h2>
-        <h2 data-testid="mission-destination">
+        </h3>
+        <h3 data-testid="mission-destination">
           {destination}
-        </h2>
+        </h3>
       </div>
     );
   }
 }
 
-export default PlanetCard;
+export default MissionCard;
 
-PlanetCard.propTypes = {
+MissionCard.propTypes = {
   name: PropTypes.string.isRequired,
   year: PropTypes.string.isRequired,
   country: PropTypes.string.isRequired,
