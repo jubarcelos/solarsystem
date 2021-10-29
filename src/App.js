@@ -1,8 +1,11 @@
 import React from 'react';
+import Header from './components/Header.js';
 
 class App extends React.Component {
   render() {
-    return (<p>Aqui é o meu geral - Sistema Solar</p>);
+    return (
+    < Header/>
+    );
   }
 }
 
