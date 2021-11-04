@@ -1,3 +1,94 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Exo", sans-serif;
+  background: url('http://s2.glbimg.com/usmAWUM-PAwxqU12IWcX7fehCz4N8noXCejKgeIXVCtIoz-HdGixxa_8qOZvMp3w/s.glbimg.com/jo/g1/f/original/2012/10/11/balbinot-1-1.jpg');
+  background-size: cover;
+  box-sizing: border-box;
+  height:100vh;
+  width:100vw;
+}
+
+h1 {
   text-align: center;
+  font-size: 80px;
+  color: rgb(231, 161, 31);
+  text-shadow: 4px 4px 6px;
+}
+
+h2 {
+  display: none;
+}
+
+main {
+ display: flex;
+ flex-wrap: wrap;
+ margin-left: 10%;
+}
+
+.planet-card {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 400px;
+}
+
+
+img {
+  display: inline;
+  width: 150px;
+  height: 100px;
+  transition: all 0.1s linear;
+  margin-bottom: 2.5em;
+  opacity: 0.4;
+}
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.6);
+  margin-top: -2%;
+  opacity: 1;
+}
+
+.planet-name {
+  margin-left: 10%;
+  color: rgb(68, 68, 68);
+}
+
+.planet-card p:hover {
+  cursor: pointer;
+  color: white;
+  margin-left: 20%;
+  transform: scale(1.6);
+  margin-bottom: -4%;
+}
+
+.mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 6.5%;
+  max-width: 80%;
+  margin-bottom: 3%;
+}
+
+.mission-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(31, 30, 30);
+  border-radius: 15px;
+  box-shadow: 0 0 1em white;
+  color: rgb(248, 248, 246);
+  height: 14em;
+  width: 12em;
+  opacity: 0.8;
+  padding: 0.8em;
+  margin: 0.7em 0.2em 0.4em 0;
+  justify-content: space-around;
+}
+
+.mission-card h3 {
+  color: rgb(231, 161, 31);
+  text-shadow: 3px 3px 8px;
 }
