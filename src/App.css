@@ -88,6 +88,10 @@ img:hover {
   justify-content: space-around;
 }
 
+.mission-card:hover {
+  box-shadow: 0 0 1em rgb(231, 161, 31);
+}
+
 .mission-card h3 {
   color: rgb(231, 161, 31);
   text-shadow: 3px 3px 8px;
