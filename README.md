@@ -1,13 +1,15 @@
-# Habilidades
+# Skills
 
-  * Utiliza JSX no React
+  * Used JSX React
+  
+  * The used Class component in React
 
-  * Utiliza o método `render()` para renderizar seus componentes
+  * Manipulation of array
 
-  * Utiliza componentes de classe em React
+  * The transition of information by `props`
 
-  * Faz manipulação de um array
+  * Use `PropTypes` to validate `props` from another component.
 
-  * Faz uso de `props` 
+If you'll like to see this project on your machine, you can make a git clone. After that please make an npm install and npm start.
 
-  * Usa `PropTypes` para validar as `props de um componente`
+Now if you are interested just in seeing this application on air, please click [here.](https://jubarcelos.github.io/solarsystem/)
